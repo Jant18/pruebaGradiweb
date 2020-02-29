@@ -1,0 +1,208 @@
+#logo{
+	margin:30px;
+}
+#contenedor {
+    
+    animation: contenedor;
+    animation-duration: 5s;
+}
+.item {
+    margin:40px;
+	}
+
+.container{
+    width:100%;
+}
+
+
+div#foto1{
+	width:380px;
+	height:150px;
+	background-image: url("../images/demo/600x400/15-min.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+div#foto2{
+	width:380px;
+	height:150px;
+	background-image: url("../images/demo/600x400/16-min.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+div#foto3{
+	width:380px;
+	height:150px;
+	background-image: url("../images/demo/600x400/17-min.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+div#foto4{
+	width:380px;
+	height:150px;
+	background-image: url("../images/demo/600x400/18-min.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+div#foto5{
+	width:380px;
+	height:150px;
+	background-image: url("../images/demo/600x400/19-min.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+div#foto6{
+	width:380px;
+	height:150px;
+	background-image: url("../images/demo/600x400/21-min.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+div#foto7{
+	width:380px;
+	height:150px;
+	background-image: url("../images/demo/600x400/22-min.jpg");
+	background-size: cover;
+	background-position: top top;
+}
+div#foto8{
+	width:380px;
+	height:150px;
+	background-image: url("../images/demo/600x400/23-min.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+div#foto9{
+	width:380px;
+	height:150px;
+	background-image: url("../images/demo/600x400/24-min.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+
+div.info{
+	width:380px;
+	height:150px;
+	visibility: hidden;
+	background-color: #00D664;
+	color: #fff;
+}
+
+
+/*----Hover --- */
+div#foto1:hover div.info{
+	visibility: visible;
+	position: relative;
+	left: -15px;
+	animation-name:cambio;
+	animation-duration: 2s;
+}
+div#foto2:hover div.info{
+	visibility: visible;
+	position: relative;
+	left: -15px;
+	animation-name:cambio2;
+	animation-duration: 2s;
+}
+div#foto3:hover div.info{
+	visibility: visible;
+	position: relative;
+	left: -15px;
+	animation-name:cambio;
+	animation-duration: 2s;
+}
+
+div#foto4:hover div.info{
+	visibility: visible;
+	position: relative;
+	left: -15px;
+	animation-name:cambio;
+	animation-duration: 2s;
+}
+div#foto5:hover div.info{
+	visibility: visible;
+	position: relative;
+	left: -15px;
+	animation-name:cambio2;
+	animation-duration: 2s;
+}
+div#foto6:hover div.info{
+	visibility: visible;
+	position: relative;
+	left: -15px;
+	animation-name:cambio;
+	animation-duration: 2s;
+}
+div#foto7:hover div.info{
+	visibility: visible;
+	position: relative;
+	left: -15px;
+	animation-name:cambio;
+	animation-duration: 2s;
+}
+div#foto8:hover div.info{
+	visibility: visible;
+	position: relative;
+	left: -15px;
+	animation-name:cambio2;
+	animation-duration: 2s;
+}
+div#foto9:hover div.info{
+	visibility: visible;
+	position: relative;
+	left: -15px;
+	animation-name:cambio;
+	animation-duration: 2s;
+}
+
+/* Mensaje dentro de la imagen */
+
+.imgHover{
+	width: 30%;
+    position: relative;
+    left: 135px;
+    bottom: 25px;
+}
+
+.nombre{
+	position: relative;
+	left: 64%;
+	top: 0;
+	font-size: 25px;
+	width: 130px;
+	text-align: center;
+}
+.numero{
+	position: relative;
+	bottom: 48px;
+	left: 7px;
+	font-size: 20px;
+	width: 130px;
+	text-align: center;
+}
+
+
+
+
+
+/*-------Animaciones ----*/
+
+@keyframes cambio{
+	from{ width: 0px; }
+	to {width: 380px;}
+}
+@keyframes cambio2{
+	from{ height: 0px; }
+	to {height: 150px;}
+}
+
+@keyframes contenedor{
+	from{width: 0;}
+	to{	width:100%;}
+}
+/*
+img{
+	transform: perspective(0px) scale(1,1) rotateY(30deg) rotateX(-30deg);
+}
+
+*/
